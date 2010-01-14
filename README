@@ -1,0 +1,63 @@
+kphotoalbum
+------------------------------------------
+A digital photo album for KDE.  It allows you to easily annotate
+your images, which you can then quickly browse and search to
+find the picture you want.
+
+Runtime requirements:
+  cygwin-1.7.1-1
+  libexiv2_5-0.18.2-1
+  libgcc1-4.3.4-3
+  libjpeg7-7-10
+  libkdcraw7-4.3.4-1
+  libkdecore5-4.3.4-1
+  libkipi6-4.3.4-1
+  libnepomuk4-4.3.4-1
+  libphonon4-4.3.1-2
+  libQt3Support4-4.5.3-2
+  libQtCore4-4.5.3-2
+  libQtGui4-4.5.3-2
+  libQtSql4-4.5.3-2
+  libQtXml4-4.5.3-2
+  libstdc++6-4.3.4-3
+
+Build requirements:
+(besides corresponding -devel packages)
+  automoc4-0.9.88-10
+  binutils-2.19.51-1
+  cmake-2.8.0-11
+  cygport-0.9.80-1
+  gcc4-core-4.3.4-3
+  gcc4-g++-4.3.4-3
+  make-3.81-2
+  pkg-config-0.23b-10
+
+Canonical website:
+  http://www.kphotoalbum.org/
+
+Canonical download:
+  http://www.kphotoalbum.org/index.php?page=download-source
+
+-------------------------------------------
+
+Build instructions:
+  unpack kphotoalbum-4.1.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./kphotoalbum-4.1.1-X.cygport all
+
+This will create:
+  /usr/src/kphotoalbum-4.1.1-X-src.tar.bz2
+  /usr/src/kphotoalbum-4.1.1-X.tar.bz2
+
+-------------------------------------------
+
+Port Notes:
+
+----- version 4.1.1-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
