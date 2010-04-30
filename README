@@ -5,28 +5,28 @@ your images, which you can then quickly browse and search to
 find the picture you want.
 
 Runtime requirements:
-  cygwin-1.7.1-1
-  libexiv2_5-0.18.2-1
+  cygwin-1.7.5-1
+  libexiv2_6-0.19-1
   libgcc1-4.3.4-3
   libjpeg7-7-10
-  libkdcraw7-4.3.4-1
-  libkdecore5-4.3.4-1
-  libkipi6-4.3.4-1
-  libnepomuk4-4.3.4-1
+  libkdcraw8-4.4.2-1
+  libkdecore5-4.4.2-1
+  libkipi7-4.4.2-1
+  libnepomuk4-4.4.2-1
   libphonon4-4.3.1-2
-  libQt3Support4-4.5.3-2
-  libQtCore4-4.5.3-2
-  libQtGui4-4.5.3-2
-  libQtSql4-4.5.3-2
-  libQtXml4-4.5.3-2
+  libQt3Support4-4.6.2-1
+  libQtCore4-4.6.2-1
+  libQtGui4-4.6.2-1
+  libQtSql4-4.6.2-1
+  libQtXml4-4.6.2-1
   libstdc++6-4.3.4-3
 
 Build requirements:
 (besides corresponding -devel packages)
   automoc4-0.9.88-10
-  binutils-2.19.51-1
+  binutils-2.20.51-1
   cmake-2.8.0-11
-  cygport-0.9.80-1
+  cygport-0.9.83-1
   gcc4-core-4.3.4-3
   gcc4-g++-4.3.4-3
   make-3.81-2
@@ -54,6 +54,9 @@ This will create:
 -------------------------------------------
 
 Port Notes:
+
+----- version 4.1.1-2 -----
+Rebuilt for KDE 4.4.
 
 ----- version 4.1.1-1 -----
 Initial release for Cygwin 1.7.
