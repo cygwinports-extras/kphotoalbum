@@ -3,3 +3,4 @@ inherit kde4
 
 HOMEPAGE="http://www.kphotoalbum.org/"
 SRC_URI="http://www.kphotoalbum.org/data/download/${P}.tar.bz2"
+PATCH_URI="mirror://portage/media-gfx/${PN}/files/${P}-docbook_fix.patch"
