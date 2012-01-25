@@ -1,5 +1,5 @@
 category: Graphics KDE
-requires: kipi-plugins libexiv2_9 libgcc1 libjpeg8 libkdcraw20 libkdecore5 libkipi8 libphonon4 libQt3Support4 libQtCore4 libQtGui4 libQtSql4 libQtXml4 libstdc++6
+requires: kipi-plugins libexiv2_11 libgcc1 libjpeg8 libkdcraw20 libkdecore5 libkipi8 libphonon4 libQt3Support4 libQtCore4 libQtGui4 libQtSql4 libQtXml4 libstdc++6
 sdesc: "KDE photo browser and annotater"
 ldesc: "A digital photo album for KDE. It allows you to easily annotate 
 your images, which you can then quickly browse and search to find the 
