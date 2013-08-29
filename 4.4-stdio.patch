@@ -1,0 +1,39 @@
+--- origsrc/kphotoalbum-4.4/ImageManager/VideoLengthExtractor.cpp	2013-02-10 12:06:34.000000000 -0600
++++ src/kphotoalbum-4.4/ImageManager/VideoLengthExtractor.cpp	2013-08-29 01:49:31.227093000 -0500
+@@ -18,11 +18,11 @@
+ */
+ 
+ #include "VideoLengthExtractor.h"
+-#include <Utilities/Process.h>
+ #include <QDir>
+ #include <MainWindow/FeatureDialog.h>
+ #include <KDebug>
+ #include <QDebug>
++#include <Utilities/Process.h>
+ 
+ #define STR(x) QString::fromUtf8(x)
+ 
+--- origsrc/kphotoalbum-4.4/Utilities/Process.cpp	2013-02-10 12:06:34.000000000 -0600
++++ src/kphotoalbum-4.4/Utilities/Process.cpp	2013-08-29 01:48:55.787065900 -0500
+@@ -17,8 +17,8 @@
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+ 
+-#include "Process.h"
+ #include <KDebug>
++#include "Process.h"
+ 
+ /**
+   \class Utilities::Process
+--- origsrc/kphotoalbum-4.4/Utilities/Process.h	2013-02-10 12:06:34.000000000 -0600
++++ src/kphotoalbum-4.4/Utilities/Process.h	2013-08-29 01:48:06.128225600 -0500
+@@ -22,6 +22,9 @@
+ 
+ #include <QProcess>
+ 
++#undef stdout
++#undef stderr
++
+ namespace Utilities
+ {
+ 

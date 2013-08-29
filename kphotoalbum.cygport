@@ -1,8 +1,8 @@
 inherit kde4
 
 NAME="kphotoalbum"
-VERSION=4.2
-RELEASE=2
+VERSION=4.4
+RELEASE=1
 CATEGORY="Graphics"
 SUMMARY="KDE photo browser and annotater"
 DESCRIPTION="A digital photo album for KDE. It allows you to easily annotate
@@ -10,5 +10,4 @@ your images, which you can then quickly browse and search to find the picture
 you want."
 HOMEPAGE="http://www.kphotoalbum.org/"
 SRC_URI="mirror://kde/stable/${NAME}/${VERSION}/src/${NAME}-${VERSION}.tar.bz2"
-
-REQUIRES="kipi-plugins"
+PATCH_URI="4.4-stdio.patch"
