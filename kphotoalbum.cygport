@@ -2,7 +2,7 @@ inherit kde4
 
 NAME="kphotoalbum"
 VERSION=4.4
-RELEASE=2
+RELEASE=3
 CATEGORY="Graphics"
 SUMMARY="KDE photo browser and annotater"
 DESCRIPTION="A digital photo album for KDE. It allows you to easily annotate
