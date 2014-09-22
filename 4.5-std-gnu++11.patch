@@ -1,0 +1,21 @@
+In member function ‘void DateBar::DateBarWidget::drawArrow(QPainter&, const QPoint&, const QPoint&)’:
+DateBar/DateBarWidget.cpp:634:58: error: ‘M_PI’ was not declared in this scope
+
+--- origsrc/kphotoalbum-4.5/cmake/modules/CheckCXX11Features.cmake	2014-07-13 04:49:17.000000000 -0500
++++ src/kphotoalbum-4.5/cmake/modules/CheckCXX11Features.cmake	2014-09-22 17:29:07.055810700 -0500
+@@ -61,13 +61,13 @@ endif()
+ ### Check for needed compiler flags
+ #
+ include(CheckCXXCompilerFlag)
+-check_cxx_compiler_flag("-std=c++11" _HAS_CXX11_FLAG)
++check_cxx_compiler_flag("-std=gnu++11" _HAS_CXX11_FLAG)
+ if (NOT _HAS_CXX11_FLAG)
+     check_cxx_compiler_flag("-std=c++0x" _HAS_CXX0X_FLAG)
+ endif ()
+ 
+ if (_HAS_CXX11_FLAG)
+-    set(CXX11_COMPILER_FLAGS "-std=c++11")
++    set(CXX11_COMPILER_FLAGS "-std=gnu++11")
+ elseif (_HAS_CXX0X_FLAG)
+     set(CXX11_COMPILER_FLAGS "-std=c++0x")
+ endif ()
