@@ -14,3 +14,5 @@ PATCH_URI="
 	4.4-stdio.patch
 	4.5-std-gnu++11.patch
 "
+
+REQUIRES="kde-runtime"
