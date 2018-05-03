@@ -1,7 +1,7 @@
-inherit kde4
+inherit kf5
 
 NAME="kphotoalbum"
-VERSION=4.5
+VERSION=5.2
 RELEASE=1
 CATEGORY="Graphics"
 SUMMARY="KDE photo browser and annotater"
@@ -9,10 +9,9 @@ DESCRIPTION="A digital photo album for KDE. It allows you to easily annotate
 your images, which you can then quickly browse and search to find the picture
 you want."
 HOMEPAGE="http://www.kphotoalbum.org/"
-SRC_URI="mirror://kde/stable/${NAME}/${VERSION}/src/${NAME}-${VERSION}.tar.xz"
+SRC_URI="mirror://kde/stable/${NAME}/${VERSION}/${NAME}-${VERSION}.tar.xz"
 PATCH_URI="
-	4.4-stdio.patch
-	4.5-std-gnu++11.patch
+	5.2-stdio.patch
 "
 
-REQUIRES="kde-runtime"
+DIFF_EXCLUDES="version.h"
